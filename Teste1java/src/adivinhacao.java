@@ -25,7 +25,7 @@ public class adivinhacao {
                 System.out.println("Acertou");
                 break;
             }
-            if (tentativas == 25) {
+            if (tentativas == 20) {
                 System.out.println("Suas tentativas acabaram! O número era: " + numeroSecreto);
             }
         }

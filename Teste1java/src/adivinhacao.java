@@ -11,7 +11,7 @@ public class adivinhacao {
 
         int tentativas = 0;
 
-        while (tentativas <= 25) {
+        while (tentativas <= 20) {
             System.out.println("Qual numero você acha que é:");
 
             int chute = leitura.nextInt();
@@ -29,8 +29,5 @@ public class adivinhacao {
                 System.out.println("Suas tentativas acabaram! O número era: " + numeroSecreto);
             }
         }
-
-
-
     }
 }
